@@ -1,0 +1,156 @@
+.fa-user {
+    font-size: 25px;
+    margin: 0px 0px 0px 0px;
+    border: 10px;
+    color: white;
+}
+
+.container {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    width: 80%;
+    height: 550px;
+}
+
+/*------------------START OF THE SIGNUP SECTION-------------------------*/
+.signup-section {
+    border-radius: 14px;
+    background-color: #ece2c2;
+    opacity: .91;
+}
+
+
+.signup-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    left: 1;
+    font-size: 25;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+
+.signup-section p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-top: 0px;
+    color: #746C65;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.signupform {
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 95%;
+}
+
+
+.signupform input {
+    width: 95%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #ece2c2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    letter-spacing: 2px;
+}
+
+.label {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    color: #746C65;
+    font-weight: 900;
+    font-size: 19px;
+    letter-spacing: 3.5px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+
+}
+
+button {
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    background-color: #746C65;
+    color: #faf2dd;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/*------------------END OF THE SIGNUP SECTION-------------------------*/
+
+
+.message {
+    text-transform: uppercase;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*------------------START OF THE LOGIN SECTION-------------------------*/
+.login-section {
+    border-radius: 14px;
+    background-color: #CABE9D;
+}
+
+.login-center img {
+    width: 250px;
+    height: 175px;
+}
+
+.login-center h1 {
+    padding-top: 0px;
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.login-center h3 {
+    font-weight: 500;
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.loginform {
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 95%;
+}
+
+.loginform input {
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-left: 15px;
+    font-size: 15px;
+    background-color: #faf2dd
+}
+
+
+
+
+/*------------------END OF THE LOGIN SECTION-------------------------*/

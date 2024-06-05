@@ -1,0 +1,178 @@
+.fa-bag-shopping {
+    font-size: 25px;
+    margin: 0px 0px 0px 0px;
+    border: 0px;
+    color: #ffff;
+}
+
+#cart-empty-heading {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+
+.Cart-Absolute-Center {
+    background-color: azure;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+.cart-container {
+    margin-left: 15px;
+    
+    width: 75%;
+   
+    text-align: left;
+}
+
+.cart-container .cart-item {
+    background-color: #faf2dd;
+    border: 3px solid #daccaa;
+
+    display: flex;
+    border-radius: 10px;
+    min-height: 150px;
+    max-height: fit-content;
+}
+
+.cart-container .cart-item h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 0px;
+    margin-top: 2px;
+    letter-spacing: 6px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.cart-container .cart-item h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 0px;
+    margin-top: 2px;
+    letter-spacing: 6px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.cart-container .cart-item h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 880;
+    text-transform: uppercase;
+    padding-top: 0px;
+    margin-top: 8px;
+    letter-spacing: 6px;
+    margin-bottom: 75px;
+    font-size: 20px;
+}
+
+.cart-container .cart-item p {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 450;
+    text-transform: uppercase;
+    padding-bottom: -5px;
+
+
+    letter-spacing: 3px;
+    margin-bottom: -18px;
+    font-size: 18px;
+}
+
+.cart-img {
+
+    background-color: #faf2dd;
+    margin-left: 0px;
+    border-radius: 10px;
+    border: 0px solid #daccaa;
+    padding: 5px 6px;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 92%;
+}
+
+.button-simulation {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: all 0.3s ease 0s;
+}
+
+.button-simulation:hover {
+    font-weight: 900;
+    color: #9b9073;
+}
+
+#center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.animation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.animation p {
+    font-size: 20px;
+    color: green;
+    animation: fadeIn 2.5s ease-in 2s forwards;
+    animation: fadeOut 2.5s ease-in-out 2s forwards;
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    height: 30px;
+    margin: 0px 10px 0px;
+    border-radius: 5px;
+    font-weight: 600;
+    opacity: 0.65;
+    background-color: #bdb5a2;
+
+    transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+    font-weight: 800;
+    opacity: 1;
+}
+
+form{
+    display: inline-block;
+    
+}
+
+.grandtotal{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 900;
+    letter-spacing: 15px;
+    color: #000;
+    opacity: 0.75;
+}
