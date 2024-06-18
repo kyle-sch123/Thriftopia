@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Drop</title>
+
+  <link rel="icon" type="image/x-icon" href="images/THRIFTOPIA LOGO.jpg">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="newdrop.css">
+</head>
+
+<body>
+  <header id="MyHeader">
+    <a href="index.php"> <img src="images/T-logo.png" alt="Thriftopia's logo" class="nav_logo"></a>
+
+    <nav>
+      <ul class="nav_links">
+        <li><a href="newdrop.php"><b style="font-weight: 780;">New drop </b></a></li>
+
+        <li class="dropdown" id="browse-section">
+          <a href="index.php#browse-section" class="dropbtn">Browse</a>
+          <div class="dropdown-content">
+              <a href="index.php?filter=option1#all-sec">Price (Low To High)</a>
+              <a href="index.php?filter=option2#all-sec">Price (High To Low)</a>
+              <a href="index.php?filter=option3#all-sec">Newest To Oldest</a>
+              <a href="index.php?filter=option4#all-sec">Oldest To Newest</a>
+              <a href="index.php">Clear Filters</a>
+              <!-- Add more filter options as needed -->
+          </div>
+
+      </li>
+
+        <li><a href="sale.php">Sale</a></li>
+      </ul>
+    </nav>
+    <!-- THIS IS WHERE THE LOGOS COME-IN-->
+    <ul class="nav_icons">
+      <li><a href="login.php"><i class="fa-solid fa-user"></i></a></li>
+      <li class="dropdown" id="search-section">
+        <a href="#" class="dropbtn"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <div class="dropdown-content" id="searchbar">
+          <form method="post" id="search-form">
+            <input type="text" name="search" id="search-input" placeholder="TYPE HERE"
+              onkeyup="showResults(this.value)">
+          </form>
+          <div id="search-results"></div>
+        </div>
+      </li>
+      <li><a href="cart.php"> <i class="fa-solid fa-bag-shopping"></i></a></li>
+    </ul>
+  </header>
+
+  <br>
+  <br>
+
+  <div class="spotlight-header-container">
+    <span class="spotlight-header">
+      NEW DROP
+    </span>
+  </div>
+
+
+  <br>
+
+  <div class="Absolute-Center">
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 5</div>
+        <img src="images/i5.jpg" class="slide-img">
+        <div class="text">Upgrade your wardrobe with this stylish and versatile Brown Flannel Jacket. Perfect for both
+          casual and semi-formal occasions, this jacket combines comfort and sophistication effortlessly.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 5</div>
+        <img src="images/i20.jpg" class="slide-img">
+        <div class="text">Elevate your outerwear game with this trendy and versatile Greenish Jacket. Designed to offer
+          both style and functionality, this jacket is perfect for various occasions, from casual outings to outdoor
+          adventures.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 5</div>
+        <img src="images/n4.jpg" class="slide-img">
+        <div class="text">Hit the green in style with the Black Adidas Golf Tee. Engineered for performance and designed
+          for comfort, this golf tee is an essential addition to any golfer's wardrobe.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="images/n12.jpg" class="slide-img">
+        <div class="text"> Elevate your lighter game with our Custom Lighter Cover, a stylish and personalized accessory
+          designed to add flair to your smoking experience. Crafted with quality materials and customizable designs,
+          this lighter cover is the perfect way to showcase your unique style.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="images/n7.jpg" class="slide-img">
+        <div class="text">Stay cozy in style with the Brown RIPNDIP Hoodie, a wardrobe essential that combines comfort
+          with urban flair. Crafted from premium materials and featuring iconic RIPNDIP branding, this hoodie is perfect
+          for casual outings or lounging at home.</div>
+      </div>
+
+      <br>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+  </div>
+  <script defer src="slideshow.js"> </script>
+
+  <br>
+  <div class="spotlight-header-container">
+    <span class="spotlight-header">
+      ITEMS YOU MIGHT LIKE
+    </span>
+  </div>
+  <br>
+
+  <div class="product-grid">
+
+    <div class="suggest">
+      <a href="index.php">
+        <img src="images/n2.jpg">
+      </a>
+      <p>Add a touch of elegance to your wardrobe with this beautiful Blue Blouse. Perfect for both professional and
+        casual settings, this blouse combines sophistication with everyday comfort.</p>
+    </div>
+
+    <div class="suggest">
+      <a href="index.php">
+        <img src="images/n6.jpg">
+      </a>
+
+      <p>Step into style and comfort with these versatile Brown Shoes. Perfect for both formal and casual occasions,
+        these shoes are designed to provide all-day comfort without compromising on elegance.</p>
+    </div>
+
+    <div class="suggest">
+      <a href="index.php">
+        <img src="images/n9.jpg">
+      </a>
+
+      <p>Elevate your smoking experience with the RIPNDIP Bong, a perfect blend of fun design and superior
+        functionality. Ideal for both novice and experienced users, this bong is a standout piece for any collection.
+      </p>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <div class="footer">
+    <div id="footer" style="background-color: white; opacity: 0.7;">
+      <div class="all-grid">
+        <div class="footer-col-1">
+          <h2 style="font-family: 'Montserrat', sans-serif; letter-spacing: 2px; font-size: 20px;">ABOUT US</h2>
+          <ul style="list-style: none; padding: 2px 5px 5px; margin-bottom: 0px;">
+            <li style="font-size: 15px;">
+              <a href="https://www.itscasualblog.com/">BECOME A FASHION BLOGGER</a>
+            </li>
+            <li style="font-size: 15px;">
+              <a href="https://www.investopedia.com/terms/s/socialresponsibility.asp"> RESPONSIBILITY </a>
+            </li>
+            <li style="font-size: 15px;">
+              <a href="https://www.shopriteholdings.co.za/careers.html"> CAREERS </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col-2">
+          <h2 style="font-family: 'Montserrat', sans-serif; letter-spacing: 2px; font-size: 20px;">CONTACT US</h2>
+          <ul style="list-style: none; padding: 2px 5px 5px; margin-bottom: 0px;">
+            <li style="font-size: 15px;">
+              <a href="https://www.geewiz.co.za/content/1-delivery">SHIPPING INFO</a>
+            </li>
+            <li style="font-size: 15px;">
+              <a href="https://www.shopify.com/za/blog/return-policy">RETURNS POLICY </a>
+            </li>
+            <li style="font-size: 15px;">
+              <a href="https://www.importatoy.co.za/pages/refund-policy">REFUND POLICY</a>
+            </li>
+            <li style="font-size: 15px;">
+              <a href="https://www.wikihow.com/Shop-Online"> HOW TO ORDER</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col-3">
+          <h2 style="font-family: 'Montserrat', sans-serif; letter-spacing: 2px; font-size: 20px;">SOCIALS</h2>
+          <div
+            style="display: gird; grid-template-rows: 1fr 1fr; grid-template-columns: 1fr 1fr 1fr; grid-gap: 5px;width: 200px;margin: 0 auto;">
+            <div>
+              <a href="https://x.com/thriftopia2_0"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+
+            <div>
+              <a href="https://www.facebook.com/ThriftopiaKS/"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+
+            <div>
+              <a href="https://www.instagram.com/thriftopia.za/"> <i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <div>
+              <a href="https://www.tiktok.com/@thriftopia.za"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script defer src="search.js"></script>
+</body>
+
+
+</html>

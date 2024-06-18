@@ -1,0 +1,36 @@
+.p-image{
+    width: 10%;
+    height: 20%;
+}
+
+.logo-section{
+    border-radius: 20px;
+    height: fit-content;
+    background-color: #fcfcfc;
+    padding: 0px 10px 15px;
+}
+
+.logo-section h2{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    color: #837d6e;
+}
+.manageitems-section{
+    border-radius: 20px;
+    height: fit-content;
+    background-color: #fcfcfc;
+    padding: 0px 10px 15px;
+}   
+.manageitems-section h2{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    color: #837d6e;
+}
+
+.manageitems-section label{
+    text-align: left;
+}
+
+.ci{
+    text-align: center;
+}
